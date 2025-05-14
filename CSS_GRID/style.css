@@ -1,0 +1,25 @@
+.container {
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr;
+    grid-template-rows: 100px 1fr 50px;
+    grid-gap: 20px; /* Espacement entre les éléments */
+    margin: 20px;
+  }
+  
+  
+  /* Style des éléments de la grille */
+  .item {
+    background-color: #e5e5e5; /* Couleur de fond des éléments */
+    padding: 20px; /* Espacement intérieur de 20 pixels */
+  }
+  
+  .item:first-child {
+    grid-row: 1 / span 2; /* Occupe la première colonne et les deux premières lignes */
+  }
+  
+  .item:last-child {
+    grid-column: 4 / 2; /* Occupe la dernière colonne */
+    color: white;
+    text-align: center;
+    background-color: blue;
+  }

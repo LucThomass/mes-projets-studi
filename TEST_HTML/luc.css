@@ -1,0 +1,71 @@
+.CommerceEquitable
+{
+	color : rgb(0, 153, 0);
+	font-weight: bold;
+}
+
+a.CommerceEquitable:hover
+{
+	color : rgb(0, 153, 0);
+}
+
+.FraisDenvoi
+{
+	color : yellow; /* Les frais d'envoi seront en jaune */
+}
+
+.CliquerChoix
+{
+	color: rgb(255, 204, 0);
+	font-weight: bold;
+	font-style: italic;
+}
+
+.GrasRougeI
+{
+	color: red;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.GrasJaune
+{
+	color: yellow;
+	font-weight: bold;
+}
+
+.GrasJauneI
+{
+	color: yellow;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.NomCollection
+{
+	color: yellow;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.NomProduit
+{
+	font-weight: bold;
+	font-size: small;
+	color: yellow;
+}
+
+.Centre
+{
+	text-align: center;
+}
+
+/* 
+
+<a href"Qui_sommes_nous.html" class="CommerceEquitable">commerce equitable</a>
+
+<span class="CliquerChoix">Cliquez sur la photo pour choisir</span>
+
+<span style="font-style: italic; font-weight: bold; color: red;">SHEMA</span>
+
+ */

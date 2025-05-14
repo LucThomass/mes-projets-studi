@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Introduction au html</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <style>
+    h2 {
+      color: green;
+    }
+
+    .text-red {
+      color: red;
+    }
+  </style>
+
+</head>
+
+<body>
+  <header>
+    <h1 style="color: blue; text-align: center;">Luc Montaine</h1>
+    <em>
+      <p>Développeur web</p>
+    </em>
+    <!-- <Contact> -->
+    <hr>
+    <a href="mailto:luc.montaine@gmail.com">Ecrire à Luc MONTAINE</a>
+    <br>
+    <a href="tel:0684652171">Appeler Luc MONTAINE</a>
+    <br>
+    <hr>
+  </header>
+  <!-- <Images> -->
+  <img src="/home/luc/Images/Captures d’écran/Créer le header mobile.png" alt="Moto Luc">
+  <br>
+  <!-- <Medias> -->
+  <audio src="audio.mp3" type="audio/mpeg" controls></audio>
+  <br><br>
+  <video controls>
+    <source src="video.mp4" type="video/mp4">
+  </video>
+  <br><br>
+  <!-- <Balise iframe> -->
+  <iframe width="560" height="315"
+    src="https://www.youtube.com/watch?v=s1mdNnVPeko&ab_channel=LeRepairedesMotards"></iframe>
+  <br><br>
+  <iframe width="360" height="315" src="https://www.w3.org/">Descriptif</iframe>
+  <br><br>
+  <object data="obj.pdf" type="application/pdf" width="100%" height="500px">objet</object>
+  <br><br>
+  <section>
+    <nav>
+      <ul>
+        <li><a href="https://www.tameteo.com/bieville-beuville/heure-par-heure">Accueil</a></li>
+        <li><a href="cv.html">CV</a></li>
+        <li><a href="https://www.linkedin.com/in/luc-montaine-1509b2251/">Contact</a></li>
+      </ul>
+    </nav>
+    <hr>
+    <h2>Expériences professionnelles</h2>
+    <ul>
+      <li><strong>2017-2018</strong></li>
+      <ul>
+        <li>Développeur web chez <a href="https://www.lemonde.fr">Le Monde</a></li>
+        <li>Développeur web chez <a href="https://www.lefigaro.fr">Le Figaro</a></li>
+      </ul>
+    </ul>
+
+    <ul> Education </ul>
+
+    <h2></h2>
+    <ul>
+      <li><span class="text-red" ;> 2016 </span>: Licence en informatique à l'<a
+          href="https://www.univ-paris1.fr">Université Paris 1</a> </li>
+      <li><span class="text-red" ;>2015</span> : Baccalauréat scientifique au <a
+          href="https://www.lycee-condorcet.fr">Lycée Condorcet</a></li>
+    </ul>
+    <table>
+      <tr>
+          <th></th>
+          <th>Première colonne</th>
+          <th>Deuxième colonne</th>
+        </tr>
+      <tr>
+        <th>Première ligne</th>
+        <td>Première cellule de la première ligne et de la première colonne</td>
+        <td>Deuxième cellule de la première ligne et première de la deuxième colonne</td>
+      </tr>
+      <tr>
+        <th>Deuxième ligne</th>
+        <td>Deuxième cellule de la première colonne</td>
+        <td>Deuxième cellule de la deuxième colonne</td>
+      </tr>
+    </table>
+    <br><br>
+    <!-- <tableau thead> -->
+    <table>
+      <thead>
+      <tr>
+        <th></th>
+        <th>Première colonne</th>
+        <th>Deuxième colonne</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr>
+        <th>Première ligne</th>
+        <td>Première cellule de la première ligne et de la première colonne</td>
+        <td>Deuxième cellule de la première ligne et première de la deuxième colonne</td>
+      </tr>
+      <tr>
+        <th>Deuxième ligne</th>
+    <td>Deuxième cellule de la première colonne</td>
+        <td>Deuxième cellule de la deuxième colonne</td>
+      </tr>
+      </tbody>
+      <tfoot>
+        <th>Nombre total de lignes</th>
+        <td>2</td>
+        <td>2</td>
+      </tfoot>
+    </table>
+
+    
+    <table>
+      <caption>La légende de mon tableau</caption>
+          <colgroup>
+            <col>
+              <col span="2" class="clair">
+                <col span="2" class="fonce">
+          </colgroup>
+          <tr>
+                <th></th>
+              <th>Blanc</th>
+                <th>Jaune</th>
+              <th>Violet</th>
+                <th>Noir</th>
+          </tr>
+          <tr>
+              <th>Fleurs</th>
+                <td>Marguerite</td>
+              <td>Tournesol</td>
+                <td>Violette</td>
+              <td>Tulipe noire</td>
+          </tr>
+          <tr>
+                <th>Oiseaux</th>
+              <td>Cygne</td>
+                <td>Canari</td>
+              <td>Spréo améthyste</td>
+                <td>Corbeau</td>
+          </tr>
+    </table>
+  </section>
+</body>
+
+</html>
