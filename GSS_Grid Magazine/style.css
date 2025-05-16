@@ -1,0 +1,68 @@
+.container {
+    display: grid;
+    border: 2px black solid; /* Bordure noire de 2 pixels */
+    grid-template-columns: repeat(12, 1fr); /* 12 colonnes de taille égale */
+    grid-template-rows: 80px repeat(4, minmax (0, 1fr)); /* 5 lignes de taille égale */
+    grid-gap: 20px; /* Espacement entre les éléments */
+    margin: 20px;
+  }
+  
+  .cover {
+    border: 2px blue solid; /* Bordure bleue de 2 pixels */
+    grid-column: 1 / -1; /* Occupe toutes les colonnes */
+    grid-row: 1 / 3; /* Occupe la première ligne */
+    text-align: center; /* Centre le texte */
+    padding: 20px; /* Espacement intérieur de 20 pixels */
+    background-color: #c9c9c9; /* Couleur de fond de l'image */
+    color: #ffffff; /* Couleur du texte */
+  }
+  
+  .mat {
+    border: 2px yellow solid;
+    grid-column: 1 / 4; /* Occupe la deuxième et la troisième colonne */
+    grid-row: 3 / 6; /* Occupe la première ligne */
+    text-align: center; /* Centre le texte */
+    padding: 20px; /* Espacement intérieur de 20 pixels */
+    background-color: #f2f2f2; /* Couleur de fond de l'image */
+    color: red; /* Couleur du texte */
+  }
+
+  .article1 {
+    border: 2px red solid;
+    grid-column: 4 / 7; /* Occupe la deuxième et la troisième colonne */
+    grid-row: 3 / 5; /* Occupe la première ligne */
+    text-align: center; /* Centre le texte */
+    padding: 20px; /* Espacement intérieur de 20 pixels */
+    background-color: #c9c9c9; /* Couleur de fond de l'image */
+    color: #ffffff; /* Couleur du texte */
+  }
+
+  .article2 {
+    border: 2px green solid;
+    grid-column: 7 / 10; /* Occupe la deuxième et la troisième colonne */
+    grid-row: 3 / 5; /* Occupe la première ligne */
+    text-align: center; /* Centre le texte */
+    padding: 20px; /* Espacement intérieur de 20 pixels */
+    background-color: #c9c9c9; /* Couleur de fond de l'image */
+    color: #ffffff; /* Couleur du texte */
+  }
+
+  .Pub1 {
+    border: 2px brown solid;
+    grid-column: 10 / 13; /* Occupe la deuxième et la troisième colonne */
+    grid-row: 3 / 4; /* Occupe la première ligne */
+    text-align: center; /* Centre le texte */
+    padding: 20px; /* Espacement intérieur de 20 pixels */
+    background-color: yellow; /* Couleur de fond de l'image */
+    color: black; /* Couleur du texte */
+  }
+
+   .Pub2 {
+    border: 2px brown solid;
+    grid-column: 10 / 13; /* Occupe la deuxième et la troisième colonne */
+    grid-row: 4 / 6; /* Occupe la première ligne */
+    text-align: center; /* Centre le texte */
+    padding: 20px; /* Espacement intérieur de 20 pixels */
+    background-color: yellow; /* Couleur de fond de l'image */
+    color: black; /* Couleur du texte */
+  }

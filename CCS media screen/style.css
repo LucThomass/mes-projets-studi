@@ -1,0 +1,23 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Colonnes adaptatives avec une largeur minimale de 200px */
+    grid-gap: 10px; /* Espacement entre les éléments */
+  }
+  
+.grid-item {
+  background-color: yellow; /* Couleur de fond des éléments de la grille */
+  padding: 20px; /* Espacement intérieur des éléments de la grille */
+  text-align: center; /* Alignement du texte au centre des éléments de la grille */
+}
+
+@media screen and (max-width: 767px) {
+  /* Règles pour les écrans étroits avec une largeur maximale de 767 pixels */
+  .grid-container {
+    grid-template-columns: 1fr; /* Définit une seule colonne pour les écrans étroits */
+  }
+
+  .grid-item {
+   background-color: red;
+   color: green;
+  }
+}
