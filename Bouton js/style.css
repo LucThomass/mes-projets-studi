@@ -1,0 +1,12 @@
+p {
+  all: revert;
+  border : medium solid;
+  font-weight: bold;
+  color: red;
+  font-size: 16px;
+}
+
+em {
+  border: inherit;
+}
+
