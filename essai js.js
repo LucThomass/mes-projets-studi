@@ -1,8 +1,6 @@
-<script type="text/javascript">
 let x = 5;
 function calculate(num1, num2) {
   let result = num1 + num2 + x;
   return result;
 }
 console.log(calculate(2, 3));
-</script>
