@@ -11994,4 +11994,9 @@ footer.footer {
 p {
   font-family: "Montserrat", sans-serif;
   font-size: 18px;
+}
+
+.hero-scene {
+  background-image: url("../images/lounge.jpg");
+  background-size: cover;
 }/*# sourceMappingURL=main.css.map */
