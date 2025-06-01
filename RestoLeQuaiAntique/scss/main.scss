@@ -1,52 +1,56 @@
 @import url("node_modules/bootstrap-icons/font/bootstrap-icons.css");
 @import 'custom';
 
-html{
-    position:relative;
+html {
+    position: relative;
     min-height: 100%;
 }
 
 main {
-    margin-bottom: 221px; // Adjust this value based on the height of your footer qui est ici de 221px
+    margin-bottom: 15px; // Adjust this value based on the height of your footer qui est ici de 221px
 }
 
 footer.footer {
-  padding: 15px;
-  position: absolute;
+    padding: 15px;
+    position: absolute;
     bottom: 0;
     width: 100%;
 }
+
 p {
     font-family: $font-family-sans-serif;
     font-size: 18px;
 }
 
 .hero-scene {
-   background-image: url('../images/lounge.jpg');
+    background-image: url('../images/lounge.jpg');
     background-size: cover;
+   
 }
 
-.image-card{
-    position:relative;
-    &:hover{
-        .titre-image{
-            opacity: 1;
+.image-card {
+    position: relative;
+
+    &:hover {
+        .titre-image {
+            opacity: .5;
         }
-        img{
-            filter: brightness(0.3);
+
+        img {
+            filter: brightness(0.7);
         }
     }
 
-    img{
+    img {
         transition: all 0.3s;
     }
 
-    .titre-image{
+    .titre-image {
         position: absolute;
-        top:50%;
-        left:50%;
+        top: 50%;
+        left: 50%;
         transform: translate(-50%, -50%);
-        opacity: 0;
+        opacity: .5;
         transition: all 0.3s;
     }
 }

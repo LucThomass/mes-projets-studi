@@ -11981,7 +11981,7 @@ html {
 }
 
 main {
-  margin-bottom: 221px;
+  margin-bottom: 15px;
 }
 
 footer.footer {
@@ -12005,10 +12005,10 @@ p {
   position: relative;
 }
 .image-card:hover .titre-image {
-  opacity: 1;
+  opacity: 0.5;
 }
 .image-card:hover img {
-  filter: brightness(0.3);
+  filter: brightness(0.7);
 }
 .image-card img {
   transition: all 0.3s;
@@ -12018,6 +12018,6 @@ p {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  opacity: 0;
+  opacity: 0.5;
   transition: all 0.3s;
 }/*# sourceMappingURL=main.css.map */
