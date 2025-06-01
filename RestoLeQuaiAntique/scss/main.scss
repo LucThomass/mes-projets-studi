@@ -7,7 +7,7 @@ html {
 }
 
 main {
-    margin-bottom: 15px; // Adjust this value based on the height of your footer qui est ici de 221px
+    margin-bottom: 20em; // Adjust this value based on the height of your footer qui est ici de 221px
 }
 
 footer.footer {
@@ -25,7 +25,6 @@ p {
 .hero-scene {
     background-image: url('../images/lounge.jpg');
     background-size: cover;
-   
 }
 
 .image-card {
@@ -53,4 +52,8 @@ p {
         opacity: .5;
         transition: all 0.3s;
     }
+}
+
+.form-label {
+    color: $primary;
 }

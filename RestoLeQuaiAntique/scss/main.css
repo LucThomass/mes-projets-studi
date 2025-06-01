@@ -11981,7 +11981,7 @@ html {
 }
 
 main {
-  margin-bottom: 15px;
+  margin-bottom: 20em;
 }
 
 footer.footer {
@@ -12020,4 +12020,8 @@ p {
   transform: translate(-50%, -50%);
   opacity: 0.5;
   transition: all 0.3s;
+}
+
+.form-label {
+  color: #906427;
 }/*# sourceMappingURL=main.css.map */
