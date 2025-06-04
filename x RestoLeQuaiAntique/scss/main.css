@@ -1,23 +1,10 @@
 @charset "UTF-8";
-@import url("../node_modules/bootstrap-icons/font/bootstrap-icons.css");
+@import url("node_modules/bootstrap-icons/font/bootstrap-icons.css");
 /*!
  * Bootstrap  v5.3.6 (https://getbootstrap.com/)
  * Copyright 2011-2025 The Bootstrap Authors
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
-
-.btn-primary {
-  --bs-primary: #906427;
-  --bs-primary-rgb: 144, 100, 39;
-  --bs-btn-bg: var(--bs-primary);
-  --bs-btn-border-color: var(--bs-primary);
-  --bs-btn-hover-bg: #7a5521;
-  --bs-btn-hover-border-color: #73501f;
-  --bs-btn-focus-shadow-rgb: 161, 123, 71;
-  --bs-btn-active-bg: #73501f;
-  --bs-btn-active-border-color: #6c4b1d;
-}
-
 :root,
 [data-bs-theme=light] {
   --bs-blue: #0d6efd;
@@ -11996,7 +11983,7 @@ textarea.form-control-lg {
 @font-face {
   font-display: block;
   font-family: "bootstrap-icons";
-  src: url("../node_modules/bootstrap-icons/font/fonts/bootstrap-icons.woff2") format("woff2"), url("../node_modules/bootstrap-icons/font/fonts/bootstrap-icons.woff") format("woff");
+  src: url("./fonts/bootstrap-icons.woff2?24e3eb84d0bcaf83d77f904c78ac1f47") format("woff2"), url("./fonts/bootstrap-icons.woff?24e3eb84d0bcaf83d77f904c78ac1f47") format("woff");
 }
 .bi::before,
 [class^=bi-]::before,
