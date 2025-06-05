@@ -5,19 +5,6 @@
  * Copyright 2011-2025 The Bootstrap Authors
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
-
-.btn-primary {
-  --bs-primary: #906427;
-  --bs-primary-rgb: 144, 100, 39;
-  --bs-btn-bg: var(--bs-primary);
-  --bs-btn-border-color: var(--bs-primary);
-  --bs-btn-hover-bg: #7a5521;
-  --bs-btn-hover-border-color: #73501f;
-  --bs-btn-focus-shadow-rgb: 161, 123, 71;
-  --bs-btn-active-bg: #73501f;
-  --bs-btn-active-border-color: #6c4b1d;
-}
-
 :root,
 [data-bs-theme=light] {
   --bs-blue: #0d6efd;
@@ -11996,7 +11983,7 @@ textarea.form-control-lg {
 @font-face {
   font-display: block;
   font-family: "bootstrap-icons";
-  src: url("../node_modules/bootstrap-icons/font/fonts/bootstrap-icons.woff2") format("woff2"), url("../node_modules/bootstrap-icons/font/fonts/bootstrap-icons.woff") format("woff");
+  src: url("./fonts/bootstrap-icons.woff2?24e3eb84d0bcaf83d77f904c78ac1f47") format("woff2"), url("./fonts/bootstrap-icons.woff?24e3eb84d0bcaf83d77f904c78ac1f47") format("woff");
 }
 .bi::before,
 [class^=bi-]::before,
@@ -20354,8 +20341,9 @@ p {
 .image-card {
   position: relative;
 }
-.image-card:hover .titre-image {
-  opacity: 0.5;
+.image-card:hover .titre-image,
+.image-card:hover .action-image-buttons {
+  opacity: 1;
 }
 .image-card:hover img {
   filter: brightness(0.7);
@@ -20372,7 +20360,15 @@ p {
   transition: all 0.3s;
 }
 .image-card .action-image-buttons {
-  background-color: red;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  opacity: 0;
+  transition: all 0.3s;
 }
 
 .form-label {
