@@ -5,4 +5,3 @@ if (function_exists('readline')) {
 } else {
     echo "La fonction readline() n'est pas disponible sur ce système.\n";
 }
-?>
