@@ -31,6 +31,11 @@ function validateForm() {
 }
 
 function validateConfirmationPassword(inputPwd, inputConfirmPwd) {
+
+    if (!inputPwd || !inputConfirmPwd) {
+        return false;
+    }
+    
     if (inputPwd.value == inputConfirmPwd.value) {
         inputConfirmPwd.classList.add("is-valid");
         inputConfirmPwd.classList.remove("is-invalid");
