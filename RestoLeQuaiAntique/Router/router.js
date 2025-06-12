@@ -45,7 +45,7 @@ const LoadContentPage = async () => {
 
   // Changement du titre de la page
   document.title = actualRoute.title + " - " + websiteName;
-};
+}
 
 // Fonction pour gérer les événements de routage (clic sur les liens)
 const routeEvent = (event) => {
@@ -55,7 +55,10 @@ const routeEvent = (event) => {
   window.history.pushState({}, "", event.target.href);
   // Chargement du contenu de la nouvelle page
   LoadContentPage();
-};
+}
+
+// Afficher et msquer les éléments en fonction du rôle
+showAndHideElementForRoles();
 
 // Gestion de l'événement de retour en arrière dans l'historique du navigateur
 window.onpopstate = LoadContentPage;
