@@ -1,12 +1,13 @@
 <?php
+function sayHi(string $firstName = 'John')
+{
+	//On modifie $firstName pour la mettre en majuscules avec strtoupper
+	$firstName = strtoupper($firstName);
+	echo 'Bonjour ' . $firstName . ' ! ' . PHP_EOL;
+}
 
-$languages = array(0 => "PHP", 1 => "Javascript", 4 => "Python");
-var_dump($languages) ;
-//array(3) {
-//  [1]=>
-//  string(3) "PHP"
-//  [2]=>
-//  string(10) "Javascript"
-//  [3]=>
-//  string(6) "Python"
-//}
+$someone = 'Eve';
+//Passage par valeur
+sayHi($someone);
+//La valeur de $someone n'as pas été modifiée
+echo $someone;
