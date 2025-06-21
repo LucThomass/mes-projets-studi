@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="FILM.xsd" generated="2017-08-28T12:02:39">
+<FILM>
+<N_x00B0_>1</N_x00B0_>
+<Titre>SUBWAY</Titre>
+<Genre>POLICIER</Genre>
+<Distributeur>GAUMONT</Distributeur>
+</FILM>
+<FILM>
+<N_x00B0_>2</N_x00B0_>
+<Titre>NIKITA</Titre>
+<Genre>DRAME</Genre>
+<Distributeur>GAUMON</Distributeur>
+</FILM>
+<FILM>
+<N_x00B0_>3</N_x00B0_>
+<Titre>STAR WARS 6 : LE RETOUR DU JEDI</Titre>
+<Genre>ACTION</Genre>
+<Distributeur>20th Century Fox</Distributeur>
+</FILM>
+<FILM>
+<N_x00B0_>4</N_x00B0_>
+<Titre>AVATAR</Titre>
+<Genre>ACTION</Genre>
+<Distributeur>20th Century Fox</Distributeur>
+</FILM>
+<FILM>
+<N_x00B0_>5</N_x00B0_>
+<Titre>BIENVENUE CHEZ LES CH&apos;TIS</Titre>
+<Genre>COMEDIE</Genre>
+<Distributeur>PATHE</Distributeur>
+</FILM>
+<FILM>
+<N_x00B0_>6</N_x00B0_>
+<Titre>DIE HARD 4</Titre>
+<Genre>ACTION</Genre>
+<Distributeur>20th Century Fox</Distributeur>
+</FILM>
+</dataroot>

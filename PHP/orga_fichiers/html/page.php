@@ -4,7 +4,7 @@
     <title>Ma page</title>
   </head>
   <body>
-    <?php include 'html/header.html'; ?>
+    <?php include 'header.html'; ?>
     <div>
       <?php echo $dataToDisplay; ?>
     </div>

@@ -1,6 +1,5 @@
-<?php 
-  require_once "display/list.php";
-
-  $data = ['Chaque élémént', 's\'affiche', 'sur une ligne'];
-  $dataToDisplay = displayList($data);
-  include 'html/page.php';
+<?php
+  if (copy('source.txt', 'destination.txt')) {
+      echo "La copie du fichier a échoué";
+  }
+?>

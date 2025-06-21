@@ -1,14 +1,11 @@
-const button = document.getElementById("bouton");
+let destination = document.getElementById('destination');
 
-button.addEventListener('click', () => {
+const forward = document.getElementById('forward');
 
-  let fenetre = window.open("destination.html", 'destination', 'width=500, height=500');
+destination.addEventListener('click', () => {
+destination = window.location.assign('destination.html');
+});
 
-  fenetre.addEventListener('load', () => {
-    let button2 = fenetre.document.getElementById('bouton2');
-
-    button2.addEventListener('click', () => {
-      fenetre.close();
-    });
-  });
+forward.addEventListener('click', () => {
+window.history.forward();
 });
