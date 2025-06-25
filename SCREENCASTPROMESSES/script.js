@@ -22,12 +22,12 @@ const child = document.getElementById('child');
 parents.addEventListener('click', (event) => {
     // Ici le code exécuté si le parent est cliqué
     console.log('Le parent a été cliqué !');
-    alert('Parent clicked!');
+    alert('parents clicked!');
 });
 
 child.addEventListener('click', (event) => {
     // Ici le code exécuté si l'enfant est cliqué
     console.log('L\'enfant a été cliqué !');
-    alert('Child clicked!');
+    alert('child clicked!');
     event.stopPropagation(); // Empêche la propagation de l'événement au parent
 });
