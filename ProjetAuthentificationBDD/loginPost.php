@@ -22,7 +22,7 @@ try{
     if($stmt->rowCount() == 1){
         $monUser = $stmt->fetch(PDO::FETCH_ASSOC);
         if(password_verify($passwordForm, $monUser['password'])){
-            echo "Connexion réussie ! Bienvenue " . $monUser['name'] . $monUser['surname'];
+            echo "Connexion réussie ! Bienvenue " . $monUser['name'] . " " . $monUser['surname'];
         }else{
             echo "Mot de passe incorrect";
         }

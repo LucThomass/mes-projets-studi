@@ -7,7 +7,7 @@
 
 <body>
   <h2>Inscription</h2>
-  <form action="register.php" method="POST">
+  <form action="registerPost.php" method="POST">
     <label for="name">Nom :</label>
     <input type="text" name="name" required><br><br>
     <label for="surname">Prenom :</label>

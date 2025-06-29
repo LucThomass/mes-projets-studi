@@ -4,7 +4,7 @@ $dsn = 'mysql:host=localhost;dbname=ProjetAuthentificationBDD';
 $username = 'user_php';
 $password = '3f7zhhRn4NH69R';
 
-try{
+try {
     $pdo = new PDO($dsn, $username, $password);
     $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
@@ -22,7 +22,7 @@ try{
     $stmt->execute();
 
     //Est-ce que l’utilisateur (mail) existe ?
-    if($stmt->rowCount() > 0){
+    if ($stmt->rowCount() > 0) {
         die("Cette adresse email est déjà utilisée");
     }
 
@@ -40,10 +40,6 @@ try{
     $stmt->execute();
 
     echo "Inscription réussie";
-
+} catch (PDOException $e) {
+    echo "Erreur lors de l’inscription : " . $e->getMessage();
 }
-catch (PDOException $e){
-    echo "Erreur lors de l’inscription : ". $e->getMessage();
-}
-
-?>
